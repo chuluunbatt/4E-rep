@@ -50,33 +50,7 @@ const renderBoard = () => {
     boardEl.appendChild(row);
   }
 };
-resetbtn.addEventListener(".click",()=> {
-  resetbtn(  for (let i = 0; i < board.length; i++) {
-    const row = document.createElement("div");
-    row.classList.add("row");
 
-    for (let j = 0; j < board[0].length; j++) {
-      const cell = document.createElement("div");
-      cell.classList.add("cell");
-      cell.textContent = board[i][j];
-
-      if (i < currentRow) {
-        if (targetWord[j] === board[i][j]) {
-          cell.classList.add("correct");
-        } else if (targetWord.includes(board[i][j])) {
-          cell.classList.add("present");
-        } else {
-          cell.classList.add("absent");
-        }
-      }
-
-      row.appendChild(cell);
-    }
-
-    boardEl.appendChild(row);
-  }
-};);
-});
 
 const buildKeyboard = () => {
   for (let i = 0; i < keys.length; i++) {
