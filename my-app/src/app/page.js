@@ -28,6 +28,28 @@ const Home = () => {
           <img src="Illustration.png" className="w-full h-full" />
         </div>
       </div>
+      <div className="w-screen  flex justify-between items-center mt-[70px]">
+        <img src="amazon.png" />
+        <img src="shuttle.png" />
+        <img src="hubspot.png" />
+        <img src="notion.png" />
+        <img src="netflix.png" />
+        <img src="zoom.png" />
+
+      </div>
+      <div className="w-screen flex items-center gap-10 mt-[115px] ">
+        <h1 className="text-[40px] bg-bla pl-25   ">Services</h1>
+        <p className="text-[18px]">At our digital marketing agency, we offer a range of services to help businesses grow and succeed online. These services include:</p>
+      </div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+
+
+
 
     </>
 
