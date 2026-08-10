@@ -15,7 +15,7 @@ const updateTimer = () => {
 
   secondsEl.textContent = String(seconds).padStart(2, "0");
   minutesEl.textContent = String(minutes).padStart(2, "0");
-  hoursEl.textContent = String(hours).padStart(2, "0");
+  hoursEl.textContent = String(hours).padStart(2, "0")
 };
 
 startBtn.addEventListener("click", () => {
@@ -54,6 +54,5 @@ resetBtn.addEventListener("click", () => {
   duration = 0;
   updateTimer();
   startBtn.disabled = false;
-  pauseBtn.disabled = true;
+  pauseBtn.disabled = true
 });
- 
