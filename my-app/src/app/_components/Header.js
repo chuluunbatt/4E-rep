@@ -5,7 +5,7 @@ export const Header = () => {
             <div className="flex items-center gap-10">
                 <div>About Us</div>
                 <div>Service</div>
-                <div>Use dsfjlrnldtngCases</div>
+                <div>Use Cases</div>
                 <div>Pricing</div>
                 <div>Blog</div>
                 <button className="px-8.75 py-5 border rounded-[14px]">Request a quote</button>
